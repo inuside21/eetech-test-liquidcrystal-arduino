@@ -8,7 +8,7 @@ int ctr = 0;
 // ============================
 void setup() {
   // init lcd
-  lcd.begin(16, 4); //initialize the lcd
+  lcd.init(); //initialize the lcd
   lcd.backlight(); //open the backlight 
 }
 
